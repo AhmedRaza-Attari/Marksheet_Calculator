@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="marksheet.css">
+    <link rel="stylesheet" href="3 marksheetCalculator.css">
     <title> Marksheet Calculator</title>
 </head>
+
 <body>
-    
-    <h1> Marksheet Calculator </h1>
-    
-    <form onsubmit="calculate(); return false;">
-        <label for="html"> Html
-            <input type="number" name="" id="html" placeholder="Enter your Html marks">
-        </label>
-        <label for="css"> Css
-            <input type="number" name="" id="css" placeholder="Enter your Css marks">
-        </label>
-        <label for="javascript"> Javascript
-            <input type="number" name="" id="javascript" placeholder="Enter your Javascript marks">
-        </label>
-        <label for="react"> React
-            <input type="number" name="" id="react" placeholder="Enter your React marks">
-        </label>
-        <label for="node"> Node
-            <input type="number" name="" id="node" placeholder="Enter your Node.js marks">
-        </label>
 
-        <button> Submit </button>
-    </form>
+    <div class="container">
+        <h1> Marksheet Calculator </h1>
 
-    <p id="showObtaimMarks"></p>
-    <p id="showPercentage"></p>
-    <p id="showGrade"></p>
+        <form onsubmit="calculate(); return false;">
+            <label for="html"> Html
+                <input type="number" name="" id="html" placeholder="Enter your Html marks">
+            </label>
+            <label for="css"> Css
+                <input type="number" name="" id="css" placeholder="Enter your Css marks">
+            </label>
+            <label for="javascript"> Javascript
+                <input type="number" name="" id="javascript" placeholder="Enter your Javascript marks">
+            </label>
+            <label for="react"> React
+                <input type="number" name="" id="react" placeholder="Enter your React marks">
+            </label>
+            <label for="node"> Node
+                <input type="number" name="" id="node" placeholder="Enter your Node.js marks">
+            </label>
+
+            <button> Submit </button>
+        </form>
+        <div class="result">
+            <p id="showObtaimMarks"> Ahmed Raza Attari </p>
+            <p id="showPercentage"> Ahmed Raza Attari </p>
+            <p id="showGrade"> Ahmed Raza Attari </p>
+        </div>
+
+    </div>
+
 
     <script src="./3. marksheetCalculator.js"></script>
 </body>
+
 </html>
