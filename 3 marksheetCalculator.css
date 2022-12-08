@@ -68,7 +68,7 @@ button {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -77,31 +77,37 @@ button {
 
 /* Desktop */
 @media only screen and (max-width: 1200px) and (min-width: 1025px) {
-    /* body {
+    body {
         background-color: lightcoral;
-    } */
+    }
 
     form label input {
         width: 80%;
     }
+
+   
 }
 
 /* LAPTOP */
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
-    /* body {
+    body {
         background-color: lightblue;
-    } */
+    }
 
     form label input {
         width: 77%;
+    }
+
+    .result {
+        font-size: 18px;
     }
 }
 
 /* TABLETS & IPADS */
 @media only screen and (max-width: 768px) and (min-width: 481px) {
-    /* body {
+    body {
         background-color: lightsalmon;
-    } */
+    }
 
     form label input {
         width: 75%;
@@ -109,6 +115,10 @@ button {
 
     .container {
         width: 75vw;
+    }
+
+    .result {
+        font-size: 14px;
     }
 }
 
